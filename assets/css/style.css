@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    border: 0;
+}
+
+#game-box {
+    border: 5px #000 solid;
+    height: 700px;
+    width: 900px;
+    margin:0 auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: rgba(10, 230, 39, 0.933)
+}
+
+.walls {
+    width: 30px;
+    height: 100%;
+    left: 860px;
+    background: url("img/hedge.jpg") repeat;
+    display: cover;
+    position: relative;
+    animation: walls 2.5s infinite;
+
+}
+@keyframes walls {
+    0%{left:860px}
+    100%{left:-100px}
+}
+
+#gap {
+    background: rgba(10, 230, 39, 0.933);
+    margin-top: 400px;
+    width: 30px;
+    height: 50px;
+    position: absolute;
+}
