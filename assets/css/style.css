@@ -19,7 +19,7 @@
     width: 30px;
     height: 100%;
     left: 860px;
-    background: url("img/hedge.jpg") repeat;
+    background: url("../img/hedge.jpg") repeat;
     display: cover;
     position: relative;
     animation: walls 2.5s infinite;
