@@ -12,11 +12,11 @@
     margin-top: 40px;
     border-radius: 10px;
     overflow: hidden;
-    background: rgba(10, 230, 39, 0.933)
+    background: rgba(10, 230, 39, 0.933);
 }
 
 .walls {
-    width: 30px;
+    width: 50px;
     height: 100%;
     left: 860px;
     background: url("../img/hedge.jpg") repeat;
@@ -33,7 +33,16 @@
 #gap {
     background: rgba(10, 230, 39, 0.933);
     margin-top: 400px;
-    width: 30px;
+    width: 50px;
     height: 50px;
     position: absolute;
 }
+
+#sprite > img{
+   width: 45px; 
+   height: 45px;
+   position: relative;
+   top: 350px;
+   left: 120px;
+
+   }
