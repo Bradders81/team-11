@@ -11,8 +11,7 @@
     margin:0 auto;
     margin-top: 40px;
     border-radius: 10px;
-    overflow: hidden;
-    background: rgba(10, 230, 39, 0.933);
+    background: rgba(10, 230, 39, 0.933)
 }
 
 .walls {
@@ -23,7 +22,8 @@
     display: cover;
     position: relative;
     animation: walls 2.5s infinite;
-
+    color: chocolate;
+    overflow: hidden;
 }
 @keyframes walls {
     0%{left:860px}
@@ -41,8 +41,6 @@
 #sprite > img{
    width: 45px; 
    height: 45px;
-   position: relative;
    top: 350px;
-   left: 120px;
-
+   left: 0;
    }
