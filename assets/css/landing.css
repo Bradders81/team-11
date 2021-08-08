@@ -70,7 +70,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
 
-    transform: translateX(800px);
+    transform: translateX(1600px);
 
     animation: all 1.5s ease-in 6s;
     animation-fill-mode: forwards;
@@ -236,7 +236,7 @@ li {
 
 @keyframes slideright {
     from {
-        transform:translateX(1000px);
+        transform:translateX(1600px);
     }
 
     to {
