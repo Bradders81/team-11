@@ -102,3 +102,43 @@ li {
     justify-content: center;
     text-align: center;
 }
+
+/* game modals */
+#modal {
+
+    display: none;
+    position: fixed;
+    z-index: 1;
+    margin: 0;
+    left: 0;
+    top: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.modal-inner {
+    
+    width: 70%;
+    border-radius: 15px;
+    
+    background-color: #fefefe;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.8);
+
+    margin: 30vh auto; 
+
+}
+
+.modal-header {
+    height: 20%;
+}
+.modal-body {
+    height: 60%;
+}
+
+.modal-footer {
+    height: 20%;
+}
