@@ -40,7 +40,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
 
-    transform: translateY(600px);
+    transform: translateY(1280px);
 
     animation: all 3s ease-in 2s;
     animation-fill-mode: forwards;
@@ -48,11 +48,11 @@ html, body {
 }
 
 #character-right {
-    width: 20vw;
+    width: 25vw;
     height: 40vh;
     
-    top: 150px;
-    right: 60px;
+    top: 30vh;
+    right: 10vw;
     
     position: fixed;
     background: url(images/sprite.png);
@@ -82,6 +82,8 @@ span {
     
     animation: all 1.5s ease-in 2s;
     animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
     animation-name: slide;
 }
 
@@ -207,11 +209,11 @@ li {
 
 @keyframes slideup {
     0%, 100% {
-        transform:translateY(600px)
+        transform:translate(-100px, 1280px)
     }
 
     10%, 90% {
-        transform: translateY(350px);
+        transform: translate(-100px, 740px);
     }
 
 }
