@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     border: 0;
@@ -12,23 +11,40 @@ overflow: hidden;
     border: 5px #000 solid;
     height: 700px;
     width: 900px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 40px;
     border-radius: 10px;
-    background: rgba(10, 230, 39, 0.933)
-    
+    overflow: hidden;
+    background: rgb(102, 98, 98) repeat;
+    display: cover;
 }
 
 .walls {
-    width: 50px;
+    width: 60px;
     height: 100%;
     left: 900px;
     background: url("../img/hedge.jpg") repeat;
     display: cover;
     position: relative;
     animation: walls 2.5s infinite linear;
+}
 
+@keyframes walls {
+    0% {
+        left: 860px
+    }
 
+    100% {
+        left: -200px
+    }
+}
+
+.gap {
+    background: rgb(102, 98, 98) repeat;
+    /* margin-top: 400px; */
+    width: 60px;
+    /* height: 100px; */
+    position: absolute;
 }
 
 #character {
@@ -40,18 +56,6 @@ overflow: hidden;
     position: relative;
 }
 
-@keyframes walls {
-    0%{left:900px}
-    100%{left:-100px}
-}
-
-#gap {
-    background: rgba(10, 230, 39, 0.933);
-    margin-top: 400px;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-}
 
 #sprite > img{
    width: 45px; 
