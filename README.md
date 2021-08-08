@@ -182,3 +182,36 @@ Feel free to check the sitemap below:
 
 ![website-sitemap](/assets/img/sitemap.png)
 
+### Skeleton of website
+The developers created a wireframe mockup for a landing page in a [Figma Workspace](https://www.figma.com/file/XhW0BQs2L9bXrjrqTYd0xr/Untitled?node-id=8%3A3). The intention was to design a sample website that kept user experience in mind while reflecting the strategy, scope, and structure of the website.
+
+One developer created a sprite in 8-bit style. This sprite was modelled after a sprite found on google images. Both versions can be seen below.
+
+![sprite landing character](/assets/img/large_random_sprite.png)
+
+![sprite landing character 2](/assets/img/large_random_sprite_right.png)
+
+
+One developer created a sample wireframe to illustrate the game's concept. This wireframe can be seen below.
+
+![game-wireframe](/assets/img/DODGEM-game-wireframe.png)
+
+## Website Features
+
+### Home page
+
+The homepage reflects a landing for a retro game. 
+
+The landing page features a series of simple animations and buttons.
+
+1. The title animates in, along with a character at the bottom of the page.
+2. The nav buttons slide in.
+3. The second character slides in from the right, as a play button animates in on top.
+
+### Game page
+The game page is linked to the play button on the home page.
+
+The game page features a canvas where the game is to be played.
+
+
+
