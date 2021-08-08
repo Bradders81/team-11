@@ -7,14 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
     let score = 0;
     let music = document.getElementById("music")
 
-    // let bgSound = new Audio("assets/sounds/game-music.wav")
+
     clearSprite()
 
     start.addEventListener("click", function() {
         wallGenerator()
-        music.play()
-        // sound()
-        // setInterval(sound, 14000)
+        // music.play()
         sprite.style.display = "";
         setInterval(changeGap, 2700)
         setInterval(score1, 10);
