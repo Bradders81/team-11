@@ -14,3 +14,27 @@ const open_modal = document.getElementsByClassName('open-modal');
 //close modal btns
 const close_btn = document.getElementById('close-btn');
 const x_out_btn = document.getElementById('x-out');
+
+//function to handle button event listeners
+function handleButtonEvents() {
+
+    //event listeners change info for about, rules and leader btns.
+    open_modal[0].addEventListener('click', function() {
+        the_modal.style.display = "block";
+        modal_header.firstElementChild.innerHTML = "About";
+        modal_body.innerHTML = `<p>${about_info}</p>`;
+    });
+
+    open_modal[1].addEventListener('click', function() {
+        the_modal.style.display = "block";
+        modal_header.firstElementChild.innerHTML = "Rules";
+        modal_body.innerHTML = `<p>${rules_info}</p>`;
+    });
+
+    open_modal[2].addEventListener('click', function() {
+        the_modal.style.display = "block";
+        modal_header.firstElementChild.innerHTML = "Leaderboard";
+        modal_body.innerHTML = `<p>${leaderboard_info}</p>`;
+    });
+
+}
