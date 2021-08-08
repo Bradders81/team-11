@@ -37,7 +37,7 @@ html, body {
     right: 0;
     margin: auto;
     position: fixed;
-    background: url(/assets/img/large_random_sprite.png);
+    background: url(/assets/img/large_random_sprite_right.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -56,7 +56,7 @@ html, body {
     right: 18vw;
     
     position: fixed;
-    background: url(/assets/img/large_random_sprite_right.png);
+    background: url(/assets/img/large_random_sprite.png);
     background-size: cover;
     background-repeat: no-repeat;
 
