@@ -208,10 +208,22 @@ The landing page features a series of simple animations and buttons.
 2. The nav buttons slide in.
 3. The second character slides in from the right, as a play button animates in on top.
 
-### Game page
-The game page is linked to the play button on the home page.
+Each nav button on the home page is linked to a modal. These modals cover the screen and have small dialog boxes.
 
-The game page features a canvas where the game is to be played.
+1. About button opens modal with game information hard-coded in landing.js file.
+2. Rules button opens modal with rules information hard-coded in landing.js file.
+3. Leaderboard button opens modal with scoreboard information hard-coded in landing.js file.
+
+### Game page
+The game page is linked to the play button on the home page. 
+The game page features a canvas where the game is to be played. 
+This canvas is positioned in the middle of the screen. 
+It features a sprite running and trying to avoid the game terrain. 
+
+* Upon character crash, the game stops and creates a modal to signal a loss.
+* As the character runs, the game improves the user's score.
+
+
 
 
 
