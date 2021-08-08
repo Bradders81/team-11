@@ -55,3 +55,50 @@ section {
 .menu {
     height: 100%;
 }
+
+/* game menu: about rules, leaderboard*/
+
+.game-info {
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    margin: 16px 0px;
+    list-style: none;
+}
+
+.btn-css {
+    width: 200px;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.8);
+
+    opacity: 0;
+    animation: all 1.5s ease-in 5s;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+}
+
+.btn-play {
+    height: 80px;
+    width: 160px;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.8);
+    font-size: 2rem;
+    text-transform: uppercase;
+
+    opacity: 0;
+    animation: all 1.5s ease-in 7s;
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+}
+
+#start-game {
+    height: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
