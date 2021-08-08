@@ -47,6 +47,24 @@ html, body {
     animation-name: slideup;
 }
 
+#character-right {
+    width: 20vw;
+    height: 40vh;
+    
+    top: 150px;
+    right: 60px;
+    
+    position: fixed;
+    background: url(images/sprite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transform: translateX(800px);
+
+    animation: all 1.5s ease-in 6s;
+    animation-fill-mode: forwards;
+    animation-name: slideright;
+}
 
 /* game title */
 h1 {
