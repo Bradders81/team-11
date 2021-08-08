@@ -16,21 +16,32 @@ overflow: hidden;
     margin-top: 40px;
     border-radius: 10px;
     background: rgba(10, 230, 39, 0.933)
+    
 }
 
 .walls {
     width: 50px;
     height: 100%;
-    left: 860px;
-    /*background: url("assets/img/hedge.jpg") repeat;*/
+    left: 900px;
+    background: url("../img/hedge.jpg") repeat;
     display: cover;
     position: relative;
-    animation: walls 2.5s infinite;
-    color: chocolate;
-    overflow: hidden;
+    animation: walls 2.5s infinite linear;
+
+
 }
+
+#character {
+    width: 40px;
+    height: 60px;
+    top: 300px;
+    left: 25px;
+    background: url("../img/sprite3.png") no-repeat center;
+    position: relative;
+}
+
 @keyframes walls {
-    0%{left:860px}
+    0%{left:900px}
     100%{left:-100px}
 }
 
