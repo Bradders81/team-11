@@ -1,12 +1,35 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+
     let gameBox = document.getElementById("game-box");
     let gapPlace = [100, 200, 600, 400]
+    let start = document.getElementById("start")
+    let sprite = document.getElementById("sprite")
+    let score = 0;
+    let count = 1;
+    clearSprite()
+
+    start.addEventListener("click", function() {
+        sound()
+        setInterval(sound, 14000)
+        sprite.style.display = "";
+        wallGenerator()
+        setInterval(score1, 10);
 
 
-    wallGenerator()
-    setInterval(changeGap, 2500)
+    });
 
+    function sound() {
+        let bgSound = new Audio("assets/sounds/game-music.wav")
+        bgSound.play()
+    }
+
+
+
+    function clearSprite() {
+        sprite.style.display = "none";
+        setInterval(changeGap, 2500)
+    }
 
     /* Creates game wall obsticles wtih a gaps at random.*/
     function wallGenerator() {
@@ -26,5 +49,14 @@ document.addEventListener("DOMContentLoaded", () => {
         size = gapPlace[holeSize];
         gaps.style.marginTop = size + 'px';
     }
+
+
+    function score1() {
+        score++;
+        document.getElementById('timer').innerHTML = score;
+    }
+
+
+
 
 });
