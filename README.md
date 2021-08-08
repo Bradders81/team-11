@@ -119,7 +119,7 @@ View the live project here: [DODGEM]()
 ## UX
 
 ### Site Owner's Goal:
-Team DODGEM intends for this website to be accessible to people wanting to to relax and play a simple game. The game should promote feelings of fun, excitement, and competition. It also promotes a sense of nostalgia for a bygone gaming era.
+DODGEM intends for this website to be accessible to people wanting to to relax and play a simple game. The game should promote feelings of fun, excitement, and competition. It also promotes a sense of nostalgia for a bygone gaming era.
 
 ### Ideal demographics:
 The target demographics of this website will include:
