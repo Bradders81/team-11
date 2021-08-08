@@ -1,107 +1,212 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Dodgem
+## Code Institute Hackathon 9th Aug 2021: Team 11
 
-Welcome AwsSG,
+![Sample of DODGEM on desktop](../assets/readme-files/dodgem-screen.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+DODGEM is a JavaScript-based scrolling game created by Team DODGEM. Team DODGEM created the game in response to Code Institute's August 2021 Hackathon challenge - retro games.
 
-## Gitpod Reminders
+Team DODGEM is comprised of four software development students from the Code Institute program. The team members were: Bradders, Steven Forrest_5P, Athiei Ajuong, and Aws Gheni.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This web application makes use of HTML5, CSS3, and JavaScript to create a game that runs in the browser window. The game is intended to be played on desktop devices.
 
-`python3 -m http.server`
+View the live project here: [DODGEM]()
 
-A blue button should appear to click: _Make Public_,
+## UX
 
-Another blue button should appear to click: _Open Browser_.
+### Site Owner's Goal:
+DODGEM intends for this website to be accessible to people wanting to to relax and play a simple game. The game should promote feelings of fun, excitement, and competition. It also promotes a sense of nostalgia for a bygone gaming era.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Ideal demographics:
+The target demographics of this website will include:
 
-A blue button should appear to click: _Make Public_,
+* People that grew up on retro games
+* Young people
+* Gamers
+* Procrastinators
 
-Another blue button should appear to click: _Open Browser_.
+### User Personas
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+New user/Potential new user:
 
-To log into the Heroku toolbelt CLI:
+1. I want to be able to open a game on my laptop or desktop.
+2. I want to navigate the website easily.
+3. I want to find relevant information about the game.
+4. I want to play a game without expending resources.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Design considerations
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+To develop and create this retro game, the developers got together on in a Slack channel. The developers discussed design ideas, game themes, and game logic. They also discussed the frameworks to use to build DODGEM. The developers settled on JavaScript. Developers chose JavaScript as it is suitable for front-end web applications.
 
-------
+### Strategy of website
 
-## Release History
+1. User type:
+    * Gamers
+    * Gen X'ers
+    * Young people
+    * Procrastinators
+    * Students
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+2. Demographics:
+    * People under-55
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+3. Psychographics:
+    * Gamers
+    * Interests in retro media/games
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Scope of website
+A website scope was determined in order to deliver on the goals targeted in the website's strategy. The idea was to align the website's features with the intended purposes of the website. The features of the website fall into two categories, namely content and functionality.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### Content requirements:
+A user visiting the DODGEM website will look for:
+* Game information
+* Game rules
+* A scoreboard or leaderboard to see the top scores on the game
+* A play/start button to enter the game
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+#### Functionality requirements:
+A user visiting the DODGEM website will be able to:
+* Navigate the website effortlessly
+* Browse the website on laptop and larger devices
+* Find information about the game
+* Play using a keyboard
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Structure of website
+The information hierarchy of this website was outlined with considerations taken from the strategy and scope of the site. A sample sitemap was created in Adobe Photoshop and will be used to inform the content and functionality requirements of the website.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Feel free to check the sitemap below: 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+![website-sitemap](../assets/img/sitemap.png)
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Skeleton of website
+The developers created a wireframe mockup for a landing page in a [Figma Workspace](https://www.figma.com/file/XhW0BQs2L9bXrjrqTYd0xr/Untitled?node-id=8%3A3). The intention was to design a sample website that kept user experience in mind while reflecting the strategy, scope, and structure of the website.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+One developer created a sprite in 8-bit style. This sprite was modelled after a sprite found on google images. Both versions can be seen below.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![sprite landing character](../assets/img/large_random_sprite.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![sprite landing character 2](../assets/img/large_random_sprite_right.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+One developer created a sample wireframe to illustrate the game's concept. This wireframe can be seen below.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+![game-wireframe](../assets/img/DODGEM-game-wireframe.png)
 
-------
+## Website Features
 
-## FAQ about the uptime script
+### Home page
 
-**Why have you added this script?**
+The homepage reflects a landing for a retro game. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The landing page features a series of simple animations and buttons.
 
-**How will this affect me?**
+1. The title animates in, along with a character at the bottom of the page.
+2. The nav buttons slide in.
+3. The second character slides in from the right, as a play button animates in on top.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Each nav button on the home page is linked to a modal. These modals cover the screen and have small dialog boxes.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+1. About button opens modal with game information hard-coded in landing.js file.
+2. Rules button opens modal with rules information hard-coded in landing.js file.
+3. Leaderboard button opens modal with scoreboard information hard-coded in landing.js file.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Game page
+The game page is linked to the play button on the home page. 
+The game page features a canvas where the game is to be played. 
+This canvas is positioned in the middle of the screen. 
+It features a sprite running and trying to avoid the game terrain. 
 
-**So….?**
+* Upon character crash, the game stops and creates a modal to signal a loss.
+* As the character runs, the game improves the user's score.
+* A timer enables the user to see how long they have run.
+* The timer also indicates the user's score.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Features to Add
+* The website would be more functional with a leaderboard that can change dynamically and remain on the home page. This requires some back-end work. 
+ 
+## Technologies Used
+* HTML5 - The language used to create the skeleton of the website. Forms, buttons, sections, divisions, etc.
 
-**Can I opt out?**
+* CSS3 - The language used to style the HTML5 pages and elements. 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+* [Nes.css library](https://nostalgic-css.github.io/NES.css/) - This css library helped the developers create html elements with retro styles.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+* [Bootsrap](https://getbootstrap.com/) - The developers used the bootstrap framework to structure the website and game layouts more easily. This was beneficial when adding structure to the site.
 
-**Anything more?**
+* [Figma](https://www.figma.com/file/XhW0BQs2L9bXrjrqTYd0xr/Untitled?node-id=8%3A3) - Here is a link to a Figma workspace. This was used to draft and realise the ideas behind the design of the landing page. 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* [Google Fonts](https://fonts.google.com/) - Is where the developers selected the "Press Start 2P" font after perusing Googles font library for something suitable.
 
----
+* [W3C Schools](https://w3schools.com) - This website is very informative. The developer would often consult W3Schools and constantly revisit various tags of code.
 
-Happy coding!
+* [Stack Overflow](https://stackoverflow.com) - This website is informative. The developers would consult this website to find solutions to similar issues faced.
+
+## Testing
+The developers tested the website in Google Chrome and tested it for the functions it was intended to achieve.
+
+##### Content Requirements
+The developers believe this website can fulfill its intended content requirements.
+
+A user visiting the DODGEM website can find:
+* Game information
+* Game rules
+* A scoreboard or leaderboard to see the top scores on the game
+* A play/start button to enter the game
+
+##### Functionality Requirements
+
+The developers believe this website can fulfill its intended functionality requirements.
+
+A user visiting the DODGEM website can:
+* Navigate the website effortlessly
+* Browse the website on laptop and larger devices
+* Find information about the game
+* Play using a keyboard
+
+### Testing Browsers
+The developer manually tested the website across 1 browser, namely:
+
+* Google Chrome
+
+### Responsive Design
+
+This website was designed for laptops and desktop devices. As explained by the Retro Game Hackathon organisers, the application was developed with desktop devices in mind.
+
+* Using DevTools, the developers checked the game's usage for large devices.
+
+### Issues Discovered
+Developers found issues with animations and character positioning on the landing page. These were addressed by ensuring the characters were placed further off screen and the overflow was hidden.
+
+Developers wanted to have a dynamic leaderboard. This issue could be addressed using back-end tools like flask. 
+
+Adding sound was a challenge. At times, the sound would lag and play at inappropriate times. In JavaScript, developers resolved this issue by setting appropriate triggers and event listeners.
+
+Branches were complicated to use. Developers learned to use branches to work on projects in an agile style. The developers created their own branches and made pull requests to work on their own tasks. Working in branches enabled the developers to work without complicating the same code.
+
+## Deployment
+This project was created in GitPod's development environment. 
+
+To make this project viewable to the public, the developer followed these steps:
+
+1. Enter [Github Repository](https://github.com/AthAjuong/milestone-project-1)
+2. Go to settings tab
+3. Go to pages section
+4. Choose a master branch for the project, "main"
+
+This deployed the TightCore Gym website that is now viewable [here](https://athajuong.github.io/milestone-project-1/index.html).
+
+### Cloning the Project
+
+If you would like to work on this project further you can clone it to your local machine using the following steps:
+
+1. Scroll to the top of my repository and click on the "clone or download button"
+2. Decide whether you want to clone the project using HTTPS or an SSH key and do the following:
+3. HTTPS: click on the checklist icon to the right of the URL
+4. SSH key: first click on 'Use SSH' then click on the same icon as above
+5. Open the 'Terminal'
+6. Change the current working directory to the location where you want the cloned directory
+7. Type 'git clone', and then paste the URL you copied earlier.
+8. Press 'Enter' to create your local clone.
+
+Feel free to read about [Cloning a Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) if there is any confustion.
 
 # Dodgem
 ## Code Institute Hackathon 9th Aug 2021: Team 11
@@ -320,4 +425,5 @@ If you would like to work on this project further you can clone it to your local
 8. Press 'Enter' to create your local clone.
 
 Feel free to read about [Cloning a Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) if there is any confustion.
+
 
