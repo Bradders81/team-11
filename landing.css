@@ -42,7 +42,7 @@ html, body {
 
     transform: translateY(1280px);
 
-    animation: all 3s ease-in 2s;
+    animation: all 2.5s ease-in 3s;
     animation-fill-mode: forwards;
     animation-name: slideup;
 }
