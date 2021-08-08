@@ -18,6 +18,11 @@ const open_modal = document.getElementsByClassName('open-modal');
 const close_btn = document.getElementById('close-btn');
 const x_out_btn = document.getElementById('x-out');
 
+
+//const create a play button hear
+const play_button = document.getElementById('press-play');
+
+
 //function to handle button event listeners
 function handleButtonEvents() {
 
@@ -55,6 +60,9 @@ function handleButtonEvents() {
             the_modal.style.display = "none";
         }
     }
+
+    play_button.addEventListener('click', loadGame);
+
 }
 
 //create a function to separate title letters into individual spans
@@ -66,6 +74,14 @@ function splitGameTitle() {
         heading.innerHTML += "<span>"+separated_title[i]+"</span>"
     }
 }
+
+
+function loadGame() {
+
+    
+
+}
+
 
 handleButtonEvents();
 splitGameTitle();
