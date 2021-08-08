@@ -39,7 +39,7 @@ body {
     background: #000 repeat;
     display: cover;
     position: relative;
-    animation: walls 2.5s infinite linear;
+    animation: walls 3s infinite linear;
     vertical-align: top;
     z-index: 1;
     margin-top: 0;
@@ -60,7 +60,6 @@ body {
     background: rgb(102, 98, 98) repeat;
     margin-top: 400px;
     width: 60px;
-    height: 100px;
     position: absolute;
     z-index: 1;
 
