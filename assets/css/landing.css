@@ -102,8 +102,8 @@ span {
 
 /* menu section */
 section {
-    height: 80%;
-    max-width: 60%;
+    height: 100%;
+    max-width: 100%;
     margin: 16px auto;
 }
 
@@ -177,7 +177,7 @@ li {
 
 .modal-inner {
     
-    width: 70%;
+    width: 100%;
     border-radius: 15px;
     
     background-color: #fefefe;
