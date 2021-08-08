@@ -223,6 +223,10 @@ It features a sprite running and trying to avoid the game terrain.
 * Upon character crash, the game stops and creates a modal to signal a loss.
 * As the character runs, the game improves the user's score.
 
+## Features to Add
+* The website would be more functional with a leaderboard that can change dynamically and remain on the homepage. This requires some back-end work. 
+* 
+* 
 
 
 
