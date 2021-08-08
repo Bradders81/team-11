@@ -128,3 +128,51 @@ The target demographics of this website will include:
 * Young people
 * Gamers
 * Procrastinators
+
+### User Personas
+
+New user/Potential new user:
+
+1. I want to be able to open a game on my laptop or desktop.
+2. I want to navigate the website easily.
+3. I want to find relevant information about the game.
+4. I want to play a game without expending resources.
+
+### Design considerations
+
+To develop and create this retro game, the developers got together on in a Slack channel. The developers discussed design ideas, game themes, and game logic. They also discussed the frameworks to use to build DODGEM.
+
+### Strategy of website
+
+1. User type:
+    * Gamers
+    * Gen X'ers
+    * Young people
+    * Procrastinators
+    * Students
+
+2. Demographics:
+    * Under-55
+
+3. Psychographics:
+    * Gamers
+    * Interests in retro media/games
+
+### Scope of website
+A website scope was determined in order to deliver on the goals targeted in the website's strategy. The idea was to align the website's features with the intended purposes of the website. The features of the website fall into two categories, namely content and functionality.
+
+#### Content requirements:
+A user visiting the DODGEM website will look for:
+* Game information
+* Game rules
+* A scoreboard or leaderboard to see the top scores on the game
+* A play/start button to enter the game
+
+#### Functionality requirements:
+A user visiting the TightCore Gym website will be able to:
+* Navigate the website effortlessly
+* Browse the website on laptop and larger devices
+* Find information about the game
+* Play using a keyboard
+
+
