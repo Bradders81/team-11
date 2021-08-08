@@ -2,7 +2,7 @@ let sprite = document.getElementById('sprite');
 let move = 3;
 
 window.addEventListener('keydown', (e) => {
-    if (parseInt(sprite.style.left) >= 0 && parseInt(sprite.style.left) <= 855 && parseInt(sprite.style.top) >= 0 && parseInt(sprite.style.top) < 651) {
+    if (parseInt(sprite.style.left) >= 0 && parseInt(sprite.style.left) <= 845 && parseInt(sprite.style.top) >= 0 && parseInt(sprite.style.top) < 655) {
         switch (e.key) {
             case 'ArrowLeft':
                 sprite.style.left = parseInt(sprite.style.left) - move + 'px';
@@ -21,22 +21,27 @@ window.addEventListener('keydown', (e) => {
                 console.log('down')
                 break;
         }
-    } else if (parseInt(sprite.style.left) < 0) {
+    } 
+    if (parseInt(sprite.style.left) < 0) {
         sprite.style.left = 0 + 'px';
 
-    } else if (parseInt(sprite.style.top) < 0) {
+    } 
+    if (parseInt(sprite.style.top) < 0) {
         sprite.style.top = 0 + 'px';
 
-    } else if (parseInt(sprite.style.left) > 0 && parseInt(sprite.style.left) >= 850) {
-        sprite.style.left = 850 + 'px';
+    } 
+    if (parseInt(sprite.style.left) > 0 && parseInt(sprite.style.left) >= 845) {
+        sprite.style.left = 845 + 'px';
 
-    } else if (parseInt(sprite.style.top) > 0 && parseInt(sprite.style.top) > 650) {
-        sprite.style.top = 650 + 'px';
+    }
+    if (parseInt(sprite.style.top) > 0 && parseInt(sprite.style.top) > 645) {
+        sprite.style.top = 645 + 'px';
     }
 })
 
 window.addEventListener('load', () => {
     sprite.style.position = 'relative';
-    sprite.style.left = '0px'
-    sprite.style.top = '300px'
+    sprite.style.left = '5px'
+    sprite.style.top = '305px'
 })
+

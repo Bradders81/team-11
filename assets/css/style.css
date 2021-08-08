@@ -4,6 +4,10 @@
     border: 0;
 }
 
+body {
+overflow: hidden;
+}
+
 #game-box {
     border: 5px #000 solid;
     height: 700px;
@@ -18,7 +22,7 @@
     width: 50px;
     height: 100%;
     left: 860px;
-    background: url("../img/hedge.jpg") repeat;
+    /*background: url("assets/img/hedge.jpg") repeat;*/
     display: cover;
     position: relative;
     animation: walls 2.5s infinite;
