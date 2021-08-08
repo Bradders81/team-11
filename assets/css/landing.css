@@ -27,6 +27,47 @@ html, body {
     margin: auto;
 }
 
+
+/* create a character to animate on the home page*/
+
+#character {
+    width: 20vw;
+    height: 40vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: fixed;
+    background: url(/assets/img/large_random_sprite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transform: translateY(1280px);
+
+    animation: all 2.5s ease-in 3s;
+    animation-fill-mode: forwards;
+    animation-name: slideup;
+}
+
+#character-right {
+    width: 25vw;
+    height: 40vh;
+    
+    top: 30vh;
+    right: 18vw;
+    
+    position: fixed;
+    background: url(images/sprite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transform: translateX(800px);
+
+    animation: all 1.5s ease-in 6s;
+    animation-fill-mode: forwards;
+    animation-name: slideright;
+}
+
+
 /* game title */
 h1 {
     text-align: center; 
@@ -43,13 +84,22 @@ span {
     
     animation: all 1.5s ease-in 2s;
     animation-fill-mode: forwards;
+
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+
     animation-name: slide;
 }
 
 /* menu section */
 section {
     height: 80%;
+
+    max-width: 60%;
+    margin: 16px auto;
+
     margin: 16px 0px;
+
 }
 
 .menu {
@@ -165,3 +215,27 @@ li {
         opacity: 1;    
     }
 }
+
+
+@keyframes slideup {
+    0%, 100% {
+        transform:translate(-100px, 1280px)
+    }
+
+    10%, 90% {
+        transform: translate(-100px, 740px);
+    }
+
+}
+
+@keyframes slideright {
+    from {
+        transform:translateX(1000px)
+    }
+
+    to {
+        transform: translateX(0px);
+    }
+}
+
+
