@@ -27,6 +27,27 @@ html, body {
     margin: auto;
 }
 
+/* create a character to animate on the home page*/
+
+#character {
+    width: 20vw;
+    height: 40vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: fixed;
+    background: url(/assets/img/large_random_sprite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    transform: translateY(600px);
+
+    animation: all 3s ease-in 2s;
+    animation-fill-mode: forwards;
+    animation-name: slideup;
+}
+
+
 /* game title */
 h1 {
     text-align: center; 
