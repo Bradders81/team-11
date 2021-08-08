@@ -267,9 +267,9 @@ li {
 
 @media screen and (max-width: 992px) {
     #character-right {
-        transform: translateX(900px);
+        transform: translateX(800px);
     }
-    
+
     @keyframes slideup {
         0%, 100% {
             transform:translate(-100px, 800px);
