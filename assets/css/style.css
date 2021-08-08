@@ -3,6 +3,10 @@
     border: 0;
 }
 
+body {
+overflow: hidden;
+}
+
 #game-box {
     border: 5px #000 solid;
     height: 700px;
@@ -18,11 +22,11 @@
 .walls {
     width: 60px;
     height: 100%;
-    left: 860px;
+    left: 900px;
     background: url("../img/hedge.jpg") repeat;
     display: cover;
     position: relative;
-    animation: walls 2.5s infinite;
+    animation: walls 2.5s infinite linear;
 }
 
 @keyframes walls {
@@ -42,3 +46,20 @@
     /* height: 100px; */
     position: absolute;
 }
+
+#character {
+    width: 40px;
+    height: 60px;
+    top: 300px;
+    left: 25px;
+    background: url("../img/sprite3.png") no-repeat center;
+    position: relative;
+}
+
+
+#sprite > img{
+   width: 45px; 
+   height: 45px;
+   top: 350px;
+   left: 0;
+   }
