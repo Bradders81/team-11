@@ -45,3 +45,13 @@ span {
     animation-fill-mode: forwards;
     animation-name: slide;
 }
+
+/* menu section */
+section {
+    height: 80%;
+    margin: 16px 0px;
+}
+
+.menu {
+    height: 100%;
+}
