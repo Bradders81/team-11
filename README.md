@@ -222,11 +222,30 @@ It features a sprite running and trying to avoid the game terrain.
 
 * Upon character crash, the game stops and creates a modal to signal a loss.
 * As the character runs, the game improves the user's score.
+* A timer enables the user to see how long they have run.
+* The timer also indicates the user's score.
 
 ## Features to Add
-* The website would be more functional with a leaderboard that can change dynamically and remain on the homepage. This requires some back-end work. 
-* 
-* 
+* The website would be more functional with a leaderboard that can change dynamically and remain on the home page. This requires some back-end work. 
+ 
+## Technologies Used
+* HTML5 - The language used to create the skeleton of the website. Forms, buttons, sections, divisions, etc.
+
+* CSS3 - The language used to style the HTML5 pages and elements. 
+
+* [Nes.css library](https://nostalgic-css.github.io/NES.css/) - This css library helped the developers create html elements with retro styles.
+
+* [Bootsrap](https://getbootstrap.com/) - The developers used the bootstrap framework to structure the website and game layouts more easily. This was beneficial when adding structure to the site.
+
+* [Figma](https://www.figma.com/file/XhW0BQs2L9bXrjrqTYd0xr/Untitled?node-id=8%3A3) - Here is a link to a Figma workspace. This was used to draft and realise the ideas behind the design of the landing page. 
+
+* [Google Fonts](https://fonts.google.com/) - Is where the developers selected the "Press Start 2P" font after perusing Googles font library for something suitable.
+
+* [W3C Schools](https://w3schools.com) - This website is very informative. The developer would often consult W3Schools and constantly revisit various tags of code.
+
+* [Stack Overflow](https://stackoverflow.com) - This website is informative. The developers would consult this website to find solutions to similar issues faced.
+
+
 
 
 
