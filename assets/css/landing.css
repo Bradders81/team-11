@@ -50,7 +50,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
 
-    transform: translateY(1280px);
+    transform: translateY(1440px);
 
     animation: all 2.5s ease-in 3s;
     animation-fill-mode: forwards;
@@ -225,7 +225,7 @@ li {
 
 @keyframes slideup {
     0%, 100% {
-        transform:translate(-100px, 1280px)
+        transform:translate(-100px, 1440)
     }
 
     10%, 90% {
