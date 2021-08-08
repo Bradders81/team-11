@@ -26,3 +26,22 @@ html, body {
     right: 0;
     margin: auto;
 }
+
+/* game title */
+h1 {
+    text-align: center; 
+    z-index: 1;
+    font-size: 2rem;
+    color: rgb(235, 69, 39);
+    -webkit-text-stroke: 1px black;
+    text-transform: uppercase;
+}
+
+span {
+    display: inline-block;
+    opacity: 0;
+    
+    animation: all 1.5s ease-in 2s;
+    animation-fill-mode: forwards;
+    animation-name: slide;
+}
