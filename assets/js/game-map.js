@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let start = document.getElementById("start")
     let sprite = document.getElementById("sprite")
     let score = 0;
-    let music = document.getElementById("music")
+
 
 
     clearSprite()
@@ -15,7 +15,10 @@ document.addEventListener("DOMContentLoaded", () => {
         sprite.style.display = "";
         setInterval(changeGap, 2700)
         setInterval(score1, 10);
+
     });
+
+
 
     function clearSprite() {
         sprite.style.display = "none";
@@ -49,3 +52,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 });
+
+let sound = new Audio("assets/sounds/crash.wav")
+sound.play()
