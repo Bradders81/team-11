@@ -12,16 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     start.addEventListener("click", function() {
         wallGenerator()
-        // music.play()
         sprite.style.display = "";
         setInterval(changeGap, 2700)
         setInterval(score1, 10);
-
     });
-
-    // function sound() {
-    //     bgSound.play()
-    // }
 
     function clearSprite() {
         sprite.style.display = "none";
