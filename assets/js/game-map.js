@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     wallGenerator()
-    setInterval(changeGap, 2450)
+    setInterval(changeGap, 2500)
 
 
-    /* Creates game wall obsticles wtih a gaps at random*/
+    /* Creates game wall obsticles wtih a gaps at random.*/
     function wallGenerator() {
         newWall = document.createElement("div");
         newWall.className = "walls";
@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(gaps)
     }
 
+    /* Changes the martin top of the gap at random (using the array) on each wall. */
     function changeGap() {
         holeSize = [Math.floor(Math.random() * gapPlace.length)];
         size = gapPlace[holeSize];

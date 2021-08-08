@@ -4,7 +4,7 @@
 }
 
 body {
-overflow: hidden;
+    overflow: hidden;
 }
 
 #game-box {
@@ -17,6 +17,7 @@ overflow: hidden;
     overflow: hidden;
     background: rgb(102, 98, 98) repeat;
     display: cover;
+
 }
 
 .walls {
@@ -27,39 +28,43 @@ overflow: hidden;
     display: cover;
     position: relative;
     animation: walls 2.5s infinite linear;
+    vertical-align: top;
+    z-index: 1;
+
+
 }
 
 @keyframes walls {
     0% {
-        left: 860px
+        left: 850px
     }
 
     100% {
-        left: -200px
+        left: -60px
     }
 }
 
 .gap {
     background: rgb(102, 98, 98) repeat;
-    /* margin-top: 400px; */
+    margin-top: 400px;
     width: 60px;
-    /* height: 100px; */
+    height: 100px;
     position: absolute;
+    z-index: 1;
+
 }
 
-#character {
-    width: 40px;
-    height: 60px;
-    top: 300px;
-    left: 25px;
-    background: url("../img/sprite3.png") no-repeat center;
-    position: relative;
+#sprite {
+
+    z-index: 2;
+
 }
 
+#sprite>img {
+    width: 45px;
+    height: 45px;
+    top: 350px;
+    left: 0;
+    display: hidden;
 
-#sprite > img{
-   width: 45px; 
-   height: 45px;
-   top: 350px;
-   left: 0;
-   }
+}
