@@ -7,6 +7,7 @@ body {
     overflow: hidden;
 }
 
+
 #game-box {
     border: 5px #000 solid;
     height: 700px;
@@ -36,10 +37,10 @@ body {
     width: 60px;
     height: 700px;
     left: 900px;
-    background: url("../img/hedge.jpg") repeat;
+    background: #000 repeat;
     display: cover;
     position: relative;
-    animation: walls 2.5s infinite linear;
+    animation: walls 2.7s infinite linear;
     vertical-align: top;
     z-index: 1;
     margin-top: 0;
@@ -60,12 +61,10 @@ body {
     background: rgb(102, 98, 98) repeat;
     margin-top: 400px;
     width: 60px;
-    height: 100px;
     position: absolute;
     z-index: 1;
 
 }
-
 
 #sprite {
     z-index: 2;
@@ -76,5 +75,5 @@ body {
     height: 45px;
     top: 350px;
     left: 0;
-    display: hidden;
+
 }
