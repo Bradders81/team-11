@@ -102,3 +102,29 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+# Dodgem
+## Code Institute Hackathon 9th Aug 2021: Team 11
+
+![Sample of DODGEM on desktop](assets/readme-files/dodgem-screen.png)
+
+DODGEM is a JavaScript-based scrolling game created by Team DODGEM. Team DODGEM created the game in response to Code Institute's August 2021 Hackathon challenge - retro games.
+
+Team DODGEM is comprised of four software development students from the Code Institute program. The team members were: Bradders, Steven Forrest_5P, Athiei Ajuong, and Aws Gheni.
+
+This web application makes use of HTML5, CSS3, and JavaScript to create a game that runs in the browser window. The game is intended to be played on desktop devices.
+
+View the live project here: [DODGEM]()
+
+## UX
+
+### Site Owner's Goal:
+Team DODGEM intends for this website to be accessible to people wanting to to relax and play a simple game. The game should promote feelings of fun, excitement, and competition. It also promotes a sense of nostalgia for a bygone gaming era.
+
+### Ideal demographics:
+The target demographics of this website will include:
+
+* People that grew up on retro games
+* Young people
+* Gamers
+* Procrastinators
