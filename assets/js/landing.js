@@ -1,6 +1,6 @@
 // modal string content
 var about_info = "Hunger dash is a scrolling game created by Team 11 of Code Institute's August 2021 Hackathon. Team members included Bradders, Steve Forest_5P, Athiei Ajuong, and Aws Sabah Gheni";
-var rules_info = "The Rules of Hunger Dash are very simple. \n1. Use arrow keys to go up and down. \n2. Avoid any map terrain. \n3. Survive!";
+var rules_info = "The Rules of Hunger Dash are very simple. </br>1. Use arrow keys to go up, down, left, and right. </br>2. Avoid any map terrain. </br>3. Survive!";
 var leaderboard_info = "Here is the current Hunger Dash leaderboard!";
 
 //game name for H1
