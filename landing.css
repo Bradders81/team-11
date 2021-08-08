@@ -90,8 +90,8 @@ span {
 /* menu section */
 section {
     height: 80%;
-    margin: 16px 0px;
-}
+    max-width: 60%;
+    margin: 16px auto;
 
 .menu {
     height: 100%;
