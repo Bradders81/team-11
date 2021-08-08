@@ -140,7 +140,7 @@ New user/Potential new user:
 
 ### Design considerations
 
-To develop and create this retro game, the developers got together on in a Slack channel. The developers discussed design ideas, game themes, and game logic. They also discussed the frameworks to use to build DODGEM.
+To develop and create this retro game, the developers got together on in a Slack channel. The developers discussed design ideas, game themes, and game logic. They also discussed the frameworks to use to build DODGEM. The developers settled on JavaScript. Developers chose JavaScript as it is suitable for front-end web applications.
 
 ### Strategy of website
 
@@ -152,7 +152,7 @@ To develop and create this retro game, the developers got together on in a Slack
     * Students
 
 2. Demographics:
-    * Under-55
+    * People under-55
 
 3. Psychographics:
     * Gamers
@@ -175,4 +175,10 @@ A user visiting the TightCore Gym website will be able to:
 * Find information about the game
 * Play using a keyboard
 
+### Structure of website
+The information hierarchy of this website was outlined with considerations taken from the strategy and scope of the site. A sample sitemap was created in Adobe Photoshop and will be used to inform the content and functionality requirements of the website.
+
+Feel free to check the sitemap below: 
+
+![website-sitemap](/assets/img/sitemap.png)
 
