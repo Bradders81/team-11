@@ -244,3 +244,19 @@ li {
 }
 
 
+/* add a couple of media queries */
+
+@media screen and (max-width: 1280px) {
+
+    @keyframes slideup {
+        0%, 100% {
+            transform:translate(-100px, 800px)
+        }
+    
+        10%, 90% {
+            transform: translate(-100px, 600px);
+        }
+    
+    }
+    
+}
