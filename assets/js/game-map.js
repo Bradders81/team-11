@@ -6,21 +6,21 @@ document.addEventListener("DOMContentLoaded", () => {
     let start = document.getElementById("start")
     let sprite = document.getElementById("sprite")
     let score = 0;
-    let count = 1;
+    let bgSound = new Audio("assets/sounds/game-music.wav")
     clearSprite()
 
     start.addEventListener("click", function() {
-        sound()
-        setInterval(sound, 14000)
-        sprite.style.display = "";
         wallGenerator()
+        sound()
+        setInterval(sound, 12000)
+        sprite.style.display = "";
+        setInterval(changeGap, 3000)
         setInterval(score1, 10);
 
 
     });
 
     function sound() {
-        let bgSound = new Audio("assets/sounds/game-music.wav")
         bgSound.play()
     }
 
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function clearSprite() {
         sprite.style.display = "none";
-        setInterval(changeGap, 2500)
+
     }
 
     /* Creates game wall obsticles wtih a gaps at random.*/
