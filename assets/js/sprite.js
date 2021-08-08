@@ -1,5 +1,5 @@
 let sprite = document.getElementById('sprite');
-let move = 3;
+let move = 5;
 
 window.addEventListener('keydown', (e) => {
     if (parseInt(sprite.style.left) >= 0 && parseInt(sprite.style.left) <= 845 && parseInt(sprite.style.top) >= 0 && parseInt(sprite.style.top) < 655) {
@@ -21,15 +21,15 @@ window.addEventListener('keydown', (e) => {
                 console.log('down')
                 break;
         }
-    } 
+    }
     if (parseInt(sprite.style.left) < 0) {
         sprite.style.left = 0 + 'px';
 
-    } 
+    }
     if (parseInt(sprite.style.top) < 0) {
         sprite.style.top = 0 + 'px';
 
-    } 
+    }
     if (parseInt(sprite.style.left) > 0 && parseInt(sprite.style.left) >= 845) {
         sprite.style.left = 845 + 'px';
 
@@ -44,4 +44,3 @@ window.addEventListener('load', () => {
     sprite.style.left = '5px'
     sprite.style.top = '305px'
 })
-
