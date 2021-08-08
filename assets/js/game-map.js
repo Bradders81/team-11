@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-
     let gameBox = document.getElementById("game-box");
     let gapPlace = [100, 200, 600, 400]
     let start = document.getElementById("start")
@@ -16,15 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
         sprite.style.display = "";
         setInterval(changeGap, 3000)
         setInterval(score1, 10);
-
-
     });
 
     function sound() {
         bgSound.play()
     }
-
-
 
     function clearSprite() {
         sprite.style.display = "none";
@@ -50,13 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
         gaps.style.marginTop = size + 'px';
     }
 
-
     function score1() {
         score++;
         document.getElementById('timer').innerHTML = score;
     }
-
-
-
 
 });
