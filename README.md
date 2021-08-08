@@ -169,7 +169,7 @@ A user visiting the DODGEM website will look for:
 * A play/start button to enter the game
 
 #### Functionality requirements:
-A user visiting the TightCore Gym website will be able to:
+A user visiting the DODGEM website will be able to:
 * Navigate the website effortlessly
 * Browse the website on laptop and larger devices
 * Find information about the game
@@ -190,7 +190,6 @@ One developer created a sprite in 8-bit style. This sprite was modelled after a 
 ![sprite landing character](/assets/img/large_random_sprite.png)
 
 ![sprite landing character 2](/assets/img/large_random_sprite_right.png)
-
 
 One developer created a sample wireframe to illustrate the game's concept. This wireframe can be seen below.
 
@@ -245,8 +244,79 @@ It features a sprite running and trying to avoid the game terrain.
 
 * [Stack Overflow](https://stackoverflow.com) - This website is informative. The developers would consult this website to find solutions to similar issues faced.
 
+## Testing
+The developers tested the website in Google Chrome and tested it for the functions it was intended to achieve.
+
+### Validating the HTML and CSS:
+
+#### HTML Validation
+The developer used [W3C's HTML Validator](https://validator.w3.org/) to check his pages for any validation errors. The [TightCore Gym](https://athajuong.github.io/milestone-project-1/index.html) website passed the HTML validation with no errors.
+
+#### CSS Validation
+The developer used [W3's Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/validator) to check his css for any validation errors and the website passed with no errors.
+
+##### Content Requirements
+The developers believe this website can fulfill its intended content requirements.
+
+A user visiting the DODGEM website can find:
+* Game information
+* Game rules
+* A scoreboard or leaderboard to see the top scores on the game
+* A play/start button to enter the game
+
+##### Functionality Requirements
+
+The developers believe this website can fulfill its intended functionality requirements.
+
+A user visiting the DODGEM website can:
+* Navigate the website effortlessly
+* Browse the website on laptop and larger devices
+* Find information about the game
+* Play using a keyboard
+
+### Testing Browsers
+The developer manually tested the website across 1 browser, namely:
+
+* Google Chrome
+
+### Responsive Design
+
+This website was designed for laptops and desktop devices. As explained by the Retro Game Hackathon organisers, the application was developed with desktop devices in mind.
+
+* Using DevTools, the developers checked the game's usage for large devices.
+
+### Issues Discovered
+Developers found issues with animations and character positioning on the landing page. These were addressed by ensuring the characters were placed further off screen and the overflow was hidden.
+
+Developers wanted to have a dynamic leaderboard. This issue could be addressed using back-end tools like flask. 
+
+Adding sound was a challenge. At times, the sound would lag and play at inappropriate times. In JavaScript, developers resolved this issue by setting appropriate triggers and event listeners.
 
 
+## Deployment
+This project was created in GitPod's development environment. 
 
+To make this project viewable to the public, the developer followed these steps:
 
+1. Enter [Github Repository](https://github.com/AthAjuong/milestone-project-1)
+2. Go to settings tab
+3. Go to pages section
+4. Choose a master branch for the project, "main"
+
+This deployed the TightCore Gym website that is now viewable [here](https://athajuong.github.io/milestone-project-1/index.html).
+
+### Cloning the Project
+
+If you would like to work on this project further you can clone it to your local machine using the following steps:
+
+1. Scroll to the top of my repository and click on the "clone or download button"
+2. Decide whether you want to clone the project using HTTPS or an SSH key and do the following:
+3. HTTPS: click on the checklist icon to the right of the URL
+4. SSH key: first click on 'Use SSH' then click on the same icon as above
+5. Open the 'Terminal'
+6. Change the current working directory to the location where you want the cloned directory
+7. Type 'git clone', and then paste the URL you copied earlier.
+8. Press 'Enter' to create your local clone.
+
+Feel free to read about [Cloning a Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) if there is any confustion.
 
