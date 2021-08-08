@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,15 @@
     <title>Hunger Dash</title>
 
     <!-- linked nes.css and bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" 
-    crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
 
     <!-- link stylesheet -->
     <link rel="stylesheet" href="assets/css/landing.css">
 </head>
+
 <body>
-    <div class = "background">
+    <div class="background">
         <div class="character-wrapper">
             <div id="character"></div>
             <div id="character-right"></div>
@@ -25,28 +26,28 @@
                 <section>
                     <div class="row menu">
                         <div class="col-6 game-info">
-                                <nav class="nes-text is-primary">
-                                    <li>
-                                        <button type="button" class="nes-btn btn-css open-modal">About</button>   
-                                    </li>
-                                    <li>
-                                        <button type="button" class="nes-btn btn-css open-modal">Rules</button>
-                                    </li>
-                                    <li>
-                                        <button type="button" class="nes-btn btn-css open-modal">Leaderboard</button>
-                                    </li>
-                                </nav>
+                            <nav class="nes-text is-primary">
+                                <li>
+                                    <button type="button" class="nes-btn btn-css open-modal">About</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="nes-btn btn-css open-modal">Rules</button>
+                                </li>
+                                <li>
+                                    <button type="button" class="nes-btn btn-css open-modal">Leaderboard</button>
+                                </li>
+                            </nav>
                         </div>
-                        
+
                         <div class="col-6" id="start-game">
-                                <a href="game.html" class="nes-btn is-primary btn-play" id="press-play">
-                                    Play
-                                </a> 
+                            <a href="game.html" class="nes-btn is-primary btn-play" id="press-play">
+                                Play
+                            </a>
                         </div>
                     </div>
                 </section>
-                
-            </div>   
+
+            </div>
         </div>
         <div id="modal">
             <div class="modal-inner">
@@ -59,7 +60,7 @@
                 </div>
 
                 <div class="modal-body">
-                  
+
                 </div>
 
                 <div class="modal-footer">
@@ -67,13 +68,17 @@
                         Close
                     </button>
                 </div>
-              </div>
-
             </div>
+
         </div>
+    </div>
     </div>
 
     <script src="assets/js/landing.js"></script>
+    <script type="text/javascript" src="assets/js/game-map.js"></script>
+    <script src="assets/js/landing.js"></script>
+
 
 </body>
+
 </html>
