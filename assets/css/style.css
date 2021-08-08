@@ -7,6 +7,7 @@ body {
     overflow: hidden;
 }
 
+
 #game-box {
     border: 5px #000 solid;
     height: 700px;
@@ -39,7 +40,7 @@ body {
     background: #000 repeat;
     display: cover;
     position: relative;
-    animation: walls 3s infinite linear;
+    animation: walls 2.7s infinite linear;
     vertical-align: top;
     z-index: 1;
     margin-top: 0;
@@ -65,7 +66,6 @@ body {
 
 }
 
-
 #sprite {
     z-index: 2;
 }
@@ -76,8 +76,4 @@ body {
     top: 350px;
     left: 0;
 
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> d0851ee7b46de52418842dbfb8ff9357cafbbd12
