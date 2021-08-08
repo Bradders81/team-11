@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 * {
     margin: 0;
@@ -50,7 +50,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
 
-    transform: translateY(1280px);
+    transform: translateY(1440px);
 
     animation: all 2.5s ease-in 3s;
     animation-fill-mode: forwards;
@@ -70,7 +70,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: center;
 
-    transform: translateX(800px);
+    transform: translateX(1600px);
 
     animation: all 1.5s ease-in 6s;
     animation-fill-mode: forwards;
@@ -225,7 +225,7 @@ li {
 
 @keyframes slideup {
     0%, 100% {
-        transform:translate(-100px, 1280px)
+        transform:translate(-100px, 1440)
     }
 
     10%, 90% {
@@ -236,7 +236,7 @@ li {
 
 @keyframes slideright {
     from {
-        transform:translateX(1000px);
+        transform:translateX(1600px);
     }
 
     to {
