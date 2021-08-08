@@ -37,4 +37,19 @@ function handleButtonEvents() {
         modal_body.innerHTML = `<p>${leaderboard_info}</p>`;
     });
 
+    //event listeners to close the modals
+    close_btn.addEventListener('click', function() {
+        the_modal.style.display = "none";
+    });
+
+    x_out_btn.addEventListener('click', function() {
+        the_modal.style.display = "none";
+    });
+
+    //if user clicks outside the modal box on the background
+    window.onclick = function(event) {
+        if(event.target == the_modal) {
+            the_modal.style.display = "none";
+        }
+    }
 }
