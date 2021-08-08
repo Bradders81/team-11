@@ -3,6 +3,9 @@ var about_info = "Hunger dash is a lovely game created by Team 11 of Code Instit
 var rules_info = "The Rules of Hunger Dash are very simple.";
 var leaderboard_info = "Here is the current Hunger Dash leaderboard!";
 
+//game name for H1
+const my_title = "Hunger Dash";
+
 // modal variables
 const the_modal = document.getElementById('modal');
 const modal_header = document.querySelector('.modal-header');
@@ -53,3 +56,16 @@ function handleButtonEvents() {
         }
     }
 }
+
+//create a function to separate title letters into individual spans
+function splitGameTitle() {
+    const separated_title = my_title.split("");
+    const heading = document.querySelector('h1');
+
+    for(let i=0; i < separated_title.length; i++) {
+        heading.innerHTML += "<span>"+separated_title[i]+"</span>"
+    }
+}
+
+handleButtonEvents();
+splitGameTitle();
