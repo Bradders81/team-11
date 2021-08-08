@@ -29,6 +29,14 @@ html, body {
 
 
 /* create a character to animate on the home page*/
+.character-wrapper {
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+}
 
 #character {
     width: 20vw;
