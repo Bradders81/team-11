@@ -25,10 +25,19 @@ html, body {
     left: 0;
     right: 0;
     margin: auto;
+    padding-top: 10%;
 }
 
 
 /* create a character to animate on the home page*/
+.character-wrapper {
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+}
 
 #character {
     width: 20vw;
@@ -37,7 +46,7 @@ html, body {
     right: 0;
     margin: auto;
     position: fixed;
-    background: url(/assets/img/large_random_sprite.png);
+    background: url(/assets/img/large_random_sprite_right.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -50,15 +59,16 @@ html, body {
 
 #character-right {
     width: 25vw;
-    height: 40vh;
+    height: 50vh;
     
     top: 30vh;
     right: 18vw;
     
     position: fixed;
-    background: url(images/sprite.png);
+    background: url(/assets/img/large_random_sprite.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 
     transform: translateX(800px);
 
@@ -94,12 +104,8 @@ span {
 /* menu section */
 section {
     height: 80%;
-
     max-width: 60%;
     margin: 16px auto;
-
-    margin: 16px 0px;
-
 }
 
 .menu {
@@ -172,7 +178,7 @@ li {
 
 .modal-inner {
     
-    width: 70%;
+    width: 50%;
     border-radius: 15px;
     
     background-color: #fefefe;
@@ -230,7 +236,7 @@ li {
 
 @keyframes slideright {
     from {
-        transform:translateX(1000px)
+        transform:translateX(1000px);
     }
 
     to {
@@ -239,3 +245,51 @@ li {
 }
 
 
+/* add a couple of media queries */
+
+@media screen and (max-width: 1280px) {
+    #character-right {
+        transform: translateX(900px);
+    }
+
+    @keyframes slideup {
+        0%, 100% {
+            transform:translate(-100px, 800px);
+        }
+    
+        10%, 90% {
+            transform: translate(-100px, 530px);
+        }
+    
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    #character-right {
+        transform: translateX(800px);
+    }
+
+    @keyframes slideup {
+        0%, 100% {
+            transform:translate(-100px, 800px);
+        }
+    
+        10%, 90% {
+            transform: translate(-100px, 500px);
+        }
+    
+    }
+
+    @keyframes slideright {
+        from {
+            transform:translateX(900px);
+        }
+    
+        to {
+            transform: translateX(0px);
+        }
+    }
+    
+    
+}

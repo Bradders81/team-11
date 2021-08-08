@@ -1,10 +1,10 @@
 // modal string content
-var about_info = "Hunger dash is a lovely game created by Team 11 of Code Institute's August 2021 Hackathon.";
-var rules_info = "The Rules of Hunger Dash are very simple.";
-var leaderboard_info = "Here is the current Hunger Dash leaderboard!";
+var about_info = "Dodgem is a scrolling game created by Team 11 of Code Institute's August 2021 Hackathon.</br></br>Team members included Bradders, Steve Forest_5P, Athiei Ajuong, and Aws Sabah Gheni.";
+var rules_info = "The Rules of Dodgem are very simple. </br></br>1. Use arrow keys to go up, down, left, and right. </br>2. Avoid any map terrain. </br>3. Survive!";
+var leaderboard_info = "Here is the current Dodgem leaderboard!";
 
 //game name for H1
-const my_title = "Hunger Dash";
+const my_title = "Dodgem";
 
 // modal variables
 const the_modal = document.getElementById('modal');
@@ -17,11 +17,6 @@ const open_modal = document.getElementsByClassName('open-modal');
 //close modal btns
 const close_btn = document.getElementById('close-btn');
 const x_out_btn = document.getElementById('x-out');
-
-
-//const create a play button hear
-const play_button = document.getElementById('press-play');
-
 
 //function to handle button event listeners
 function handleButtonEvents() {
@@ -61,8 +56,6 @@ function handleButtonEvents() {
         }
     }
 
-    play_button.addEventListener('click', loadGame);
-
 }
 
 //create a function to separate title letters into individual spans
@@ -75,12 +68,6 @@ function splitGameTitle() {
     }
 }
 
-
-function loadGame() {
-
-    
-
-}
 
 
 handleButtonEvents();
