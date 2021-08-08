@@ -16,8 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
         sprite.style.display = "";
         setInterval(changeGap, 3000)
         setInterval(score1, 10);
-
-
     });
 
     function sound() {
@@ -25,12 +23,17 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
+    function clearSprite() {
+        sprite.style.display = "none";
+    }
+
 
     function clearSprite() {
         sprite.style.display = "none";
-
+        setInterval(changeGap, 2500)
     }
 
+  
     /* Creates game wall obsticles wtih a gaps at random.*/
     function wallGenerator() {
         newWall = document.createElement("div");
@@ -43,6 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(gaps)
     }
 
+  
     /* Changes the martin top of the gap at random (using the array) on each wall. */
     function changeGap() {
         holeSize = [Math.floor(Math.random() * gapPlace.length)];
@@ -55,8 +59,6 @@ document.addEventListener("DOMContentLoaded", () => {
         score++;
         document.getElementById('timer').innerHTML = score;
     }
-
-
 
 
 });
