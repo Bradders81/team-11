@@ -292,6 +292,7 @@ Developers wanted to have a dynamic leaderboard. This issue could be addressed u
 
 Adding sound was a challenge. At times, the sound would lag and play at inappropriate times. In JavaScript, developers resolved this issue by setting appropriate triggers and event listeners.
 
+Branches were complicated to use. Developers learned to use branches to work on projects in an agile style. The developers created their own branches and made pull requests to work on their own tasks. Working in branches enabled the developers to work without complicating the same code.
 
 ## Deployment
 This project was created in GitPod's development environment. 
