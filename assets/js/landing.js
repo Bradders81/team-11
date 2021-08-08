@@ -76,12 +76,6 @@ function splitGameTitle() {
 }
 
 
-function loadGame() {
-
-    
-
-}
-
 
 handleButtonEvents();
 splitGameTitle();

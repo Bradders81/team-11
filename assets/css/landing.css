@@ -236,7 +236,7 @@ li {
 
 @keyframes slideright {
     from {
-        transform:translateX(1000px)
+        transform:translateX(1000px);
     }
 
     to {
@@ -254,7 +254,7 @@ li {
 
     @keyframes slideup {
         0%, 100% {
-            transform:translate(-100px, 800px)
+            transform:translate(-100px, 800px);
         }
     
         10%, 90% {
@@ -269,7 +269,7 @@ li {
 
     @keyframes slideup {
         0%, 100% {
-            transform:translate(-100px, 800px)
+            transform:translate(-100px, 800px);
         }
     
         10%, 90% {
@@ -277,5 +277,16 @@ li {
         }
     
     }
+
+    @keyframes slideright {
+        from {
+            transform:translateX(800px);
+        }
+    
+        to {
+            transform: translateX(0px);
+        }
+    }
+    
     
 }
