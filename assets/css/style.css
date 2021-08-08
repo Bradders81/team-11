@@ -1,39 +1,80 @@
-
 * {
     margin: 0;
     border: 0;
+}
+
+body {
+    overflow: hidden;
 }
 
 #game-box {
     border: 5px #000 solid;
     height: 700px;
     width: 900px;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 40px;
     border-radius: 10px;
     overflow: hidden;
-    background: rgba(10, 230, 39, 0.933)
+    background: rgb(102, 98, 98) repeat;
+    display: cover;
+}
+
+/* ---------- Score at the top of the game ----------*/
+#game-info {
+    position: absolute;
+    background-color: rgb(39, 44, 49);
+    height: 45px;
+    width: 892px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 0px;
+
+
 }
 
 .walls {
-    width: 30px;
-    height: 100%;
-    left: 860px;
+    width: 60px;
+    height: 700px;
+    left: 900px;
     background: url("../img/hedge.jpg") repeat;
     display: cover;
     position: relative;
-    animation: walls 2.5s infinite;
-
+    animation: walls 2.5s infinite linear;
+    vertical-align: top;
+    z-index: 1;
+    margin-top: 0;
 }
+
 @keyframes walls {
-    0%{left:860px}
-    100%{left:-100px}
+    0% {
+        left: 850px
+    }
+
+    100% {
+        left: -60px
+    }
 }
 
-#gap {
-    background: rgba(10, 230, 39, 0.933);
+/* --------- Gap in the ----------*/
+.gap {
+    background: rgb(102, 98, 98) repeat;
     margin-top: 400px;
-    width: 30px;
-    height: 50px;
+    width: 60px;
+    height: 100px;
     position: absolute;
+    z-index: 1;
+
+}
+
+
+#sprite {
+    z-index: 2;
+}
+
+#sprite>img {
+    width: 45px;
+    height: 45px;
+    top: 350px;
+    left: 0;
+    display: hidden;
 }
