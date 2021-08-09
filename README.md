@@ -9,7 +9,7 @@ Team DODGEM is comprised of four software development students from the Code Ins
 
 This web application makes use of HTML5, CSS3, and JavaScript to create a game that runs in the browser window. The game is intended to be played on desktop devices.
 
-View the live project here: [DODGEM]()
+View the live project here: [DODGEM](https://bradders81.github.io/team-11/)
 
 ## UX
 
