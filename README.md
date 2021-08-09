@@ -1,7 +1,7 @@
 # Dodgem
 ## Code Institute Hackathon 9th Aug 2021: Team 11
 
-![Sample of DODGEM on desktop](assets/readme-files/dodgem-screen.png)
+![Sample of DODGEM on desktop](assets/img/dodgem-screen.png)
 
 DODGEM is a JavaScript-based scrolling game created by Team DODGEM. Team DODGEM created the game in response to Code Institute's August 2021 Hackathon challenge - retro games.
 
