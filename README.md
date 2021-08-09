@@ -11,6 +11,7 @@ This web application makes use of HTML5, CSS3, and JavaScript to create a game t
 
 View the live project here: [DODGEM](https://bradders81.github.io/team-11/)
 
+
 ## UX
 
 ### Site Owner's Goal:
@@ -207,6 +208,7 @@ If you would like to work on this project further you can clone it to your local
 8. Press 'Enter' to create your local clone.
 
 Feel free to read about [Cloning a Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) if there is any confustion.
+
 
 
 

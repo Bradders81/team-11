@@ -48,5 +48,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-let sound = new Audio("assets/sounds/crash.wav")
-sound.play()
