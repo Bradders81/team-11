@@ -5,7 +5,7 @@ var rules_info = "The Rules of Dodgem are very simple. </br></br>1. Use arrow ke
 var leaderboard_info = "Here is the current Dodgem leaderboard!";
 
 //game name for H1
-const my_title = "Dodgem";
+const my_title = "Dodge'm";
 
 // modal variables
 const the_modal = document.getElementById('modal');
@@ -52,7 +52,7 @@ function handleButtonEvents() {
 
     //if user clicks outside the modal box on the background
     window.onclick = function(event) {
-        if(event.target == the_modal) {
+        if (event.target == the_modal) {
             the_modal.style.display = "none";
         }
     }
@@ -64,8 +64,8 @@ function splitGameTitle() {
     const separated_title = my_title.split("");
     const heading = document.querySelector('h1');
 
-    for(let i=0; i < separated_title.length; i++) {
-        heading.innerHTML += "<span>"+separated_title[i]+"</span>"
+    for (let i = 0; i < separated_title.length; i++) {
+        heading.innerHTML += "<span>" + separated_title[i] + "</span>"
     }
 }
 
