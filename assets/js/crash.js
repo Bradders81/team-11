@@ -8,7 +8,6 @@ $(document).ready(function() {
         var gapSpace = parseInt($('.gap').css('height'))
 
 
-
         if (wallLeft < characterLeft + 45 && wallLeft > characterLeft) {
             console.log('pass wall')
             if (!((characterTop - 35 >= gapTop) && (characterTop <= (gapTop + gapSpace)))) {
