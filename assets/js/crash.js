@@ -1,6 +1,6 @@
-$(document).ready(function () {
+$(document).ready(function() {
     let sound = new Audio("assets/sounds/crash.wav")
-    var checkCrash = setInterval(function(){
+    var checkCrash = setInterval(function() {
         var characterTop = parseInt($('#sprite').css('top'))
         var characterLeft = parseInt($('#sprite').css('left'))
         var wallLeft = parseInt($('.walls').css('left'))
@@ -8,20 +8,20 @@ $(document).ready(function () {
         var gapSpace = parseInt($('.gap').css('height'))
 
 
-
         if (wallLeft < characterLeft + 45 && wallLeft > characterLeft) {
             console.log('pass wall')
-            if (!((characterTop - 35 >= gapTop) && (characterTop <= (gapTop + gapSpace))))
+            if (!((characterTop - 35 >= gapTop) && (characterTop <= (gapTop + gapSpace)))) 
                 $("#game-over").modal('show');
-                $(".walls").hide();
-                $("#sprite").hide();
-                $("#timer").hide();
-                sound.play()
-                setTimeout(function(){
-                    location.reload();
-                    }, 3000);
-/*                 alert('Game over!') */
+
+            $(".walls").hide();
+            $("#sprite").hide();
+            $("#timer").hide();
+            sound.play()
+            setTimeout(function() {
+                location.reload();
+            }, 3000);
+            
         }
 
-    },10);
+    }, 10);
 })
