@@ -1,7 +1,7 @@
 # Dodgem
 ## Code Institute Hackathon 9th Aug 2021: Team 11
 
-![Sample of DODGEM on desktop](../assets/readme-files/dodgem-screen.png)
+![Sample of DODGEM on desktop](/assets/img/dodgem-screen.png)
 
 DODGEM is a JavaScript-based scrolling game created by Team DODGEM. Team DODGEM created the game in response to Code Institute's August 2021 Hackathon challenge - retro games.
 
@@ -75,20 +75,20 @@ The information hierarchy of this website was outlined with considerations taken
 
 Feel free to check the sitemap below: 
 
-![website-sitemap](../assets/img/sitemap.png)
+![website-sitemap](/assets/img/sitemap.png)
 
 ### Skeleton of website
 The developers created a wireframe mockup for a landing page in a [Figma Workspace](https://www.figma.com/file/XhW0BQs2L9bXrjrqTYd0xr/Untitled?node-id=8%3A3). The intention was to design a sample website that kept user experience in mind while reflecting the strategy, scope, and structure of the website.
 
 One developer created a sprite in 8-bit style. This sprite was modelled after a sprite found on google images. Both versions can be seen below.
 
-![sprite landing character](../assets/img/large_random_sprite.png)
+![sprite landing character](/assets/img/large_random_sprite.png)
 
-![sprite landing character 2](../assets/img/large_random_sprite_right.png)
+![sprite landing character 2](/assets/img/large_random_sprite_right.png)
 
 One developer created a sample wireframe to illustrate the game's concept. This wireframe can be seen below.
 
-![game-wireframe](../assets/img/DODGEM-game-wireframe.png)
+![game-wireframe](/assets/img/DODGEM-game-wireframe.png)
 
 ## Website Features
 
