@@ -6,8 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let sprite = document.getElementById("sprite")
     let score = 0;
 
-
-
     clearSprite()
 
     start.addEventListener("click", function() {
@@ -15,10 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         sprite.style.display = "";
         setInterval(changeGap, 2700)
         setInterval(score1, 10);
-
     });
-
-
 
     function clearSprite() {
         sprite.style.display = "none";

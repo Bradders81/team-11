@@ -8,11 +8,11 @@ $(document).ready(function() {
         var gapSpace = parseInt($('.gap').css('height'))
 
 
-
         if (wallLeft < characterLeft + 45 && wallLeft > characterLeft) {
             console.log('pass wall')
-            if (!((characterTop - 35 >= gapTop) && (characterTop <= (gapTop + gapSpace))))
+            if (!((characterTop - 35 >= gapTop) && (characterTop <= (gapTop + gapSpace)))) 
                 $("#game-over").modal('show');
+
             $(".walls").hide();
             $("#sprite").hide();
             $("#timer").hide();
@@ -20,7 +20,7 @@ $(document).ready(function() {
             setTimeout(function() {
                 location.reload();
             }, 3000);
-            /*                 alert('Game over!') */
+            
         }
 
     }, 10);
