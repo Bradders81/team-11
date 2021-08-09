@@ -1,7 +1,7 @@
 # Dodgem
 ## Code Institute Hackathon 9th Aug 2021: Team 11
 
-![Sample of DODGEM on desktop](assets/readme-files/dodgem-screen.png)
+![Sample of DODGEM on desktop](assets/img/dodgem-screen.png)
 
 DODGEM is a JavaScript-based scrolling game created by Team DODGEM. Team DODGEM created the game in response to Code Institute's August 2021 Hackathon challenge - retro games.
 
@@ -9,7 +9,8 @@ Team DODGEM is comprised of four software development students from the Code Ins
 
 This web application makes use of HTML5, CSS3, and JavaScript to create a game that runs in the browser window. The game is intended to be played on desktop devices.
 
-View the live project here: [DODGEM]()
+View the live project here: [DODGEM](https://bradders81.github.io/team-11/)
+
 
 ## UX
 
@@ -207,6 +208,7 @@ If you would like to work on this project further you can clone it to your local
 8. Press 'Enter' to create your local clone.
 
 Feel free to read about [Cloning a Repository](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) if there is any confustion.
+
 
 
 
